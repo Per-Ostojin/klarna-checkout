@@ -8,7 +8,15 @@
     ],
     "routes": [
       {
+        "src": "/products/(.*)",
+        "dest": "index.js"
+      },
+      {
         "src": "/checkout/(.*)",
+        "dest": "index.js"
+      },
+      {
+        "src": "/(.*)",
         "dest": "index.js"
       }
     ]
